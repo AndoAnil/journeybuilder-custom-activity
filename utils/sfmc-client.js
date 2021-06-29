@@ -16,7 +16,7 @@ const options = {
 };
 
 const client = new FuelRest(options);
-
+console.log('Client:'+client);
 /**
  * Save data in DE
  * @param externalKey
