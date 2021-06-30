@@ -6,13 +6,12 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "Custom Actvity",
-      "description": ""
+      "description": "Custom Activity"
     }
   },
   "arguments": {
     "execute": {
-      "url": "https://storedatade.herokuapp.com/journeybuilder/execute",
+      "url": "https://$DOMAIN/journey/execute",
       "verb": "POST",
       "body": "",
       "header": "",
@@ -23,22 +22,22 @@
   },
   "configurationArguments": {
     "save": {
-      "url": "https://storedatade.herokuapp.com/journeybuilder/save",
+      "url": "https://$DOMAIN/journey/save",
       "verb": "POST",
       "useJwt": true
     },
     "publish": {
-      "url": "https://storedatade.herokuapp.com/journeybuilder/publish",
+      "url": "https://$DOMAIN/journey/publish",
       "verb": "POST",
       "useJwt": true
     },
     "stop": {
-      "url": "https://storedatade.herokuapp.com/journeybuilder/stop",
+      "url": "https://$DOMAIN/journey/stop",
       "verb": "POST",
       "useJwt": true
     },
     "validate": {
-      "url": "https://storedatade.herokuapp.com/journeybuilder/validate",
+      "url": "https://$DOMAIN/journey/validate",
       "verb": "POST",
       "useJwt": true
     }
